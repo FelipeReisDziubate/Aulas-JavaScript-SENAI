@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+
+    <!-- TAG DO MEU SITE-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Esse é uma pagina modelo">
+    <meta name="keywords" content="sites,web desenvolvimento backend">
+    <meta name="author" content="Felipe">
+    <title>desafio 4</title>
+
+    <!-- ICONE DO MEU SITE-->
+    <link rel="icon" href="https://i.pinimg.com/736x/d4/e0/bd/d4e0bde674fbb4d88ae339a2febe724b.jpg" type="image/x-icon">
+
+</head>
+
+<body>
+    <h1> Calculador de IMC </h1>
+    <hr>
+    <p id="resposta"></p>
+    <script>
+        window.alert("DESAFIO 3");
+        let peso = window.prompt("DIGITE O PESO");
+        let altura = window.prompt("DIGITE A ALTURA");
+        let imc = parseFloat(peso) / parseFloat(altura)
+        let resposta="";
+        if (resultado == "imc < 18.5") {
+            resposta = "Abaixo do peso"
+        } else if (imc >= 18.5 && imc < 25) {
+            resposta = "Peso normal"
+        } else if (imc = >=25 && imc < 30) {
+            resposta = "Acima do peso"
+        }  else if (imc = >=30 && imc < 35) {
+            resposta = "Obesidade Grau I"
+        }  else if (imc = >=35 && imc < 40) {
+            resposta = "Obesidade Grau II"
+        } else{
+            resposta = "Obesidade Grau III"
+        }
+        
+       document.getElementById("resposta").innerHTML= "O resultado da operação é: " + resposta;
+
+    </script>
+</body>
+
+</html>
