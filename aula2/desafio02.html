@@ -9,7 +9,7 @@
     <meta name="description" content="Esse é uma pagina modelo">
     <meta name="keywords" content="sites,web desenvolvimento backend">
     <meta name="author" content="Felipe">
-    <title>EXERCÍCIO 1</title>
+    <title>DESAFIO 2 </title>
 
     <!-- ICONE DO MEU SITE-->
     <link rel="icon" href="https://i.pinimg.com/736x/d4/e0/bd/d4e0bde674fbb4d88ae339a2febe724b.jpg" type="image/x-icon">
@@ -17,31 +17,27 @@
 </head>
 
 <body>
-    <h1><mark> MANIPULANDO ELEMENTOS (TAGS)</mark> DO HTML ATRAVES DO JAVASCRIPT</h1>
+    <h1><mark> MANIPULANDO IMAGENS</mark> DO HTML ATRAVES DO JAVASCRIPT</h1>
     <hr>
     <div>
         <p> ESTAMOS APRENDENDO JAVASCRIPT </p>
         <p> Aprender é muito legal </p>
         <p> E para ajudar o aprendizado, é PRECISO praticar e exercitar </p>
     </div>
+    <img width="50%" src="img/img.webp" href="Ferrari F80">
     <script>
-        const tags_p = document.getElementsByTagName('p')
-        console.log(tags_p)
-        let tags_p_1 = tags_p[0];
-        console.log(tags_p_1);
-        tags_p_1.style.background="green"
-        tags_p_1.style.color="white"
-        tags_p_1.style.textAlign="center"
-        let tags_p_2 = tags_p[1];
-        console.log(tags_p_2);
-        tags_p_2.style.background="yellow"
-        tags_p_2.style.color="black"
-        tags_p_2.style.textAlign="center"
-        let tags_p_3 = tags_p[2];
-        console.log(tags_p_3);
-        tags_p_3.style.background="green"
-        tags_p_3.style.color="white"
-        tags_p_3.style.textAlign="center"
+        const tag_img = document.getElementsByTagName('img');
+        console.log(tag_img);
+
+        tag_img[0].src ="img/img2.jpg"
+        tag_img[0].title="Logo"
+
+
+
+        
+
+
+
     </script>
     
 </body>
