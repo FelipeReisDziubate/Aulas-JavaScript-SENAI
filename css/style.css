@@ -1,4 +1,7 @@
-.aula1,.aula2{
+@import url(aula1/style.css);
+@import url(aula2/style.css);
+
+h1,h2,h3,p{
     background-color: black;
     color: white;
 }
