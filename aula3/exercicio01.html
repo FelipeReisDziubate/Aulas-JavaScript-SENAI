@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="pt-br">
 
@@ -24,21 +23,21 @@
     <input type="button" onclick="feliz();" value="TRISTE">
     <img src="img/triste.jpg" id="rosto" style="width: 350px;">
     <script>
-        function triste(){
+        function triste() {
             var tag_img = document.getElementsByTagName('img')[0]
             console.log(tag_img)
-            tag_img.src="img/feliz.jpg";
+            tag_img.src = "img/feliz.jpg";
 
 
         }
 
-        function feliz(){
-            var tag_name = document.getElementsByTagName('img')[0]
+        function feliz() {
+            var tag_img = document.getElementsByTagName('img')[0]
             console.log(tag_img)
-            tag_img.src="img/triste.jpg";
+            tag_img.src = "img/triste.jpg";
         }
     </script>
-    
+
 </body>
 
 </html>
